@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav {
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: rgb(93, 213, 224);
+    border-radius: 50px;
+}
+
+main {
+    padding: 20px;
+}
+
+.registrationList {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.registrationList th,
+.registrationList td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.registrationList th {
+    background-color: #f2f2f2;
+    color: black;
+}

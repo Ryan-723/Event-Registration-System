@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+
+header{
+    text-align: center;
+    color: white;
+}
+
+nav{
+    text-align: center;
+    padding: 20px;
+
+}
+
+nav a{
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: rgb(93, 213, 224);
+    border-radius: 50px;
+}
+
+#products{
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    margin-bottom: 30px;
+    background-color: rgb(93, 213, 224);
+    border-radius: 25px;
+    padding: 10px;
+    margin: 5%;
+}
+
+#productDetails{
+    margin-left: 15px;
+}
+#catalogueImage{
+    width: 300px;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+#productPara{
+    max-width: 70%;
+}
+
+#checkoutButton{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(93, 213, 224);
+    display: inline-block;
+    margin-bottom: 25px;
+    margin-left: 50%;
+}
+
+#checkoutButton a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+#checkoutDetails{
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+}
+
+#purchaseForm{
+    padding: 22px;
+    margin: 5%;
+    background-color: rgb(93, 213, 224);
+    border-radius: 20px;
+}
+
+#formText{
+    display:inline-block;
+    width: 200px;
+}
+
+#nameFieldError{
+    color: red;
+}
+
+#phoneFieldError{
+    color: red;
+}
+
+#postcodeFieldError{
+    color: red;
+}
+
+#addressFieldError{
+    color: red;
+}
+
+#cityFieldError{
+    color: red;
+}
+
+#provinceFieldError{
+    color: red;
+}
+
+#creditCardFieldError{
+    color: red;
+}
+
+#expiryMonthFieldError{
+    color: red;
+}
+
+#expiryYearFieldError{
+    color: red;
+}
+
+#emailFieldError{
+    color: red;
+}
+
+#passwordFieldError{
+    color: red;
+}
+
+#confirmPasswordFieldError{
+    color: red;
+}
+
+#generalError{
+    color: red;
+}
+
+#confirmPurchase{
+    margin-top: 22px;
+}
+
+#receipt{
+    background-color: rgb(93, 213, 224);
+    padding: 22px;
+    margin: 5%;
+    border-radius: 20px;
+}
+
+#product1Recipt{
+    margin-left: 25px;
+}
+#product2Recipt{
+    margin-left: 25px;
+}
+#product3Recipt{
+    margin-left: 25px;
+}
+#product4Recipt{
+    margin-left: 25px;
+}
+#product5Recipt{
+    margin-left: 25px;
+}
+
+footer{
+    margin: 5px;
+    padding: 3px;
+    text-align: center;
+    background-color: grey;
+}
